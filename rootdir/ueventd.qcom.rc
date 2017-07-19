@@ -277,3 +277,7 @@
 /sys/devices/soc/soc:fpc1020		irq	                        0660   system     system
 /sys/devices/soc/soc:fpc1020            wakeup_enable	                0220   system     system
 /sys/devices/soc/soc:fpc1020            compatible_all	                0220   system     system
+
+# /dev/sensors only supports an ioctl to get the current SLPI timestamp
+# allow the sensors daemon to perform this as non-root
+/dev/sensors                            0660   root       system

@@ -315,6 +315,9 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
     user system
     group system
+    # Grants the ability for this daemon to bind IPC router ports so it can
+    # register QMI services
+    capabilities NET_BIND_SERVICE
     writepid /dev/cpuset/system-background/tasks
 
 # Adjust socket buffer to enlarge TCP receive window for high bandwidth
