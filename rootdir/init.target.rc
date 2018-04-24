@@ -131,7 +131,7 @@ on charger
     load_system_props
     setprop sys.usb.configfs 0
     setprop persist.sys.usb.config mass_storage
-    start hvdcp_opti
+    start vendor.hvdcp_opti
 
 service adsprpcd /vendor/bin/adsprpcd
     class main
@@ -144,7 +144,7 @@ service per_mgr /vendor/bin/pm-service
     group system net_raw
     writepid /dev/cpuset/system-background/tasks
 
-service hvdcp_opti /vendor/bin/hvdcp_opti
+service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
     class main
     user root
     group root
