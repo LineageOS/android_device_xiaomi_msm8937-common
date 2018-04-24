@@ -129,7 +129,7 @@ on property:init.svc.surfaceflinger=restarting
 
 on charger
     setprop sys.usb.configfs 0
-    start hvdcp_opti
+    start vendor.hvdcp_opti
     start vendor.power_off_alarm
 
 service adsprpcd /vendor/bin/adsprpcd
@@ -157,7 +157,7 @@ on property:sys.powerctl=*
     stop vendor.per_proxy
     stop vendor.ims_rtp_daemon
 
-service hvdcp_opti /vendor/bin/hvdcp_opti
+service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
     class main
     user root
     group root
