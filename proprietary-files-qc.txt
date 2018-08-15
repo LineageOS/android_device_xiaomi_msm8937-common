@@ -1,4 +1,4 @@
-# ADSP - from tissot 8.1.0 OPM1.171019.019
+# ADSP - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/adsprpcd
 vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
@@ -11,7 +11,7 @@ vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libmdsprpc.so
 
-# ADSP modules - from tissot 8.1.0 OPM1.171019.019
+# ADSP modules - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libexternal_dog_skel.so
@@ -22,7 +22,7 @@ vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
-# Audio - from tissot 8.1.0 OPM1.171019.019
+# Audio - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -47,14 +47,14 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# Bluetooth - from tissot 8.1.0 OPM1.171019.019
+# Bluetooth - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/hci_qcomm_init
 vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
-# CNE - from tissot 8.1.0 OPM1.171019.019
+# CNE - from tissot 8.1.0 OPM1.171019.026
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
 etc/permissions/cneapiclient.xml
@@ -108,21 +108,21 @@ vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so
 
-# Charger - from tissot 8.1.0 OPM1.171019.019
+# Charger - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/hvdcp_opti
 
 # Consumer IR - from santoni (Redmi 4X)
 lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.default.so
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
 
-# DPM - from tissot 8.1.0 OPM1.171019.019
+# DPM - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/dpmQmiMgr
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so
 vendor/lib64/libdpmqmihal.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so
 vendor/lib/libdpmqmihal.so
 
-# DRM - from tissot 8.1.0 OPM1.171019.019
+# DRM - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libGPreqcancel.so
@@ -138,11 +138,11 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-# Gatekeeper - from tissot 8.1.0 OPM1.171019.019
+# Gatekeeper - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so
 
-# GPS - from bardock - OPM1.171019.019
+# GPS - from bardock - OPM1.171019.026
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -168,7 +168,7 @@ vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_ulp_adaptor.so
 vendor/lib64/vendor.qti.gnss@1.0_vendor.so
 
-# Graphics - from tissot 8.1.0 OPM1.171019.019
+# Graphics - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -214,11 +214,11 @@ vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/libRSDriver_adreno.so
 
-# Graphics (HDR) - from tissot 8.1.0 OPM1.171019.019
+# Graphics (HDR) - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Graphics (SDM) - from tissot 8.1.0 OPM1.171019.019
+# Graphics (SDM) - from tissot 8.1.0 OPM1.171019.026
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
 vendor/lib/libscalar.so
@@ -234,11 +234,11 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Graphics vulkan - from tissot 8.1.0 OPM1.171019.019
+# Graphics vulkan - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so
 vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/hw/vulkan.msm8937.so
 
-# Graphics firmware - from tissot 8.1.0 OPM1.171019.019
+# Graphics firmware - from tissot 8.1.0 OPM1.171019.026
 vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
@@ -248,7 +248,7 @@ vendor/firmware/a530v2_seq.fw2
 vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
 
-# Keystore - from tissot 8.1.0 OPM1.171019.019
+# Keystore - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so
 vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so
 
@@ -257,7 +257,7 @@ vendor/lib/hw/sound_trigger.primary.msm8937.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
 
-# Media - from tissot 8.1.0 OPM1.171019.019
+# Media - from tissot 8.1.0 OPM1.171019.026
 -vendor/lib/libgpustats.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmm-color-convertor.so
@@ -296,9 +296,9 @@ vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
 
-# Modem - from tissot - OPR1.170623.026
-vendor/lib/libwms.so|7df491e58c43b1274e9e7ef540aa6d2b3c1dd0d0
-vendor/lib64/libwms.so|2a629122412cf6157945a629a8bb5d63292bf4df
+# Modem - from tissot 8.1.0 OPM1.171019.026
+vendor/lib/libwms.so
+vendor/lib64/libwms.so
 
 # Perf - from TA-1025_00WW 8.1.0 OPR1.170623.026
 -lib/vendor.qti.hardware.iop@1.0.so
@@ -330,13 +330,13 @@ vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
 
-# Peripheral manager - from tissot 8.1.0 OPM1.171019.019
+# Peripheral manager - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
-# Postprocessing - from tissot 8.1.0 OPM1.171019.019
+# Postprocessing - from tissot 8.1.0 OPM1.171019.026
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 lib/libsd_sdk_display.so:vendor/lib/libsd_sdk_display.so
@@ -383,7 +383,7 @@ vendor/lib/libqmi_common_so.so|a15a552631d1f4f74b888fddddb466767667d0ac
 vendor/lib/libqmi_csi.so|a54472f7122e1d9d1961597535d129b2aa30e8ea
 vendor/lib/libqmi_encdec.so|85406a8a91dcbd1972af1d22ebaed6c6677b6f8f
 vendor/lib/libqmi.so|3cddfafd83d60335de7871c082ef87984c2161a7
-vendor/lib/libqmiservices.so|6e22614f60a8542b30222c7eef2afd0c52dd1505
+vendor/lib/libqmiservices.so|acc51cfc0ef6da7d568c53260e65d8b94fb1d51d
 vendor/lib/libsmemlog.so|3e1470571a6afeb8547f356607f93c906f2972fd
 vendor/lib64/libdiag.so|7c55d69cbd7015313e6b60558109be9555c14eea
 vendor/lib64/libdsi_netctrl.so|6723a8ca214da3897ea53e32842d4a9546378c20
@@ -399,10 +399,10 @@ vendor/lib64/libqmi_common_so.so|75135bf5b3510eb8fac0112a5823d4c9663629ac
 vendor/lib64/libqmi_csi.so|1f5090d76cfdfd24fe23f445d363da65f0fd7eb8
 vendor/lib64/libqmi_encdec.so|d1529781c74bbffbe1167f86a033c7e38d474a5e
 vendor/lib64/libqmi.so|8ef0d8398863b95e5b1e1a93ae2c70dddd314054
-vendor/lib64/libqmiservices.so|d0e960626c0819113bfc023dd704523867091c77
+vendor/lib64/libqmiservices.so|911cc82311f16570c8b511949493bf4a046b55c3
 vendor/lib64/libsmemlog.so|512653d3d9563fda55acb84d76006c298eb78ba2
 
-# QTEE - from tissot 8.1.0 OPM1.171019.019
+# QTEE - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
@@ -439,7 +439,7 @@ vendor/lib64/libmdmdetect.so|7f6848e5768592af51af54d0bb7c2bd0a4adb8b5
 vendor/lib64/libnetmgr.so|bb572b6e8764e3cfa1c17756f3f34643b55b6c92
 vendor/lib64/libqcmaputils.so|da441a26497420a60962a4cda5414a48753f6081
 vendor/lib64/libril-qc-ltedirectdisc.so|de4824424cb5e3fea7acadfe9c49073e8a469ab2
-vendor/lib64/libril-qc-qmi-1.so|74f3c1a472e40ee5c3928829db5279cb69643eee
+vendor/lib64/libril-qc-qmi-1.so|bd5ebb5a8407cf5643c133f009516812c30d59d5
 vendor/lib64/libril-qc-radioconfig.so|46b35fab92aee25425d50f464e608639ac28e452
 vendor/lib64/libril-qcril-hook-oem.so|c1a9af8e2ed69e9f69c2313790fc9be79b3d6ca0
 vendor/lib64/librilqmiservices.so|c753bbe1c7abbf3187be31996a49857ef477917e
@@ -506,7 +506,7 @@ vendor/lib64/lib-uceservice.so|3d782c0bbcc3727541ffa63a887060cdf559d916
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f6113715ce15dd8c1400d8017e0e033b75e0faf3
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|cda7a4da8436db7a71496fbc6b75136d99af0658
 
-# Sensors - from tissot 8.1.0 OPM1.171019.019
+# Sensors - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/sensors.qcom
 vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8937.so
 vendor/lib/libsensor1.so
@@ -525,13 +525,13 @@ vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services - from tissot 8.1.0 OPM1.171019.019
+# Time services - from tissot 8.1.0 OPM1.171019.026
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# TUI - from tissot 8.1.0 OPM1.171019.019
+# TUI - from tissot 8.1.0 OPM1.171019.026
 lib/vendor.qti.hardware.tui_comm@1.0.so
 lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
@@ -539,10 +539,10 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
 
-# Widevine - from tissot 8.1.0 OPM1.171019.019
+# Widevine - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/hw/android.hardware.drm@1.0-service.widevine
 vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
 vendor/lib/libwvhidl.so
 
-# Wi-Fi - from tissot 8.1.0 OPM1.171019.019
+# Wi-Fi - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/wcnss_service
