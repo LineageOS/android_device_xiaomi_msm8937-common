@@ -147,7 +147,8 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     libgnss \
-    libgnsspps
+    libgnsspps \
+    libsensorndkbridge
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1-impl-qti \
