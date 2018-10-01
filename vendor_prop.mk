@@ -73,6 +73,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fm.transmitter=false
 
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fingerprint.preserve.unused=true
+
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.gps.agps_provider=1
