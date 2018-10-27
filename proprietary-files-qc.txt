@@ -528,11 +528,10 @@ vendor/lib64/libsensor_reg.so|99f62b70bd484c58493ae7cb3a505c05e9364f18
 vendor/lib64/libsensor_user_cal.so|b50089c887ebe7857ae10857dfe3753b94e0c6f3
 vendor/lib64/sensors.ssc.so|c081f1315325cc85fc11d13e8a4bba94964f14c6
 
-# Thermal - from TA-1025_00WW 8.1.0 OPR1.170623.026
-vendor/bin/thermal-engine|d301c065db3e8e2592e3f5552c38f59dbc5cd31e
--vendor/lib/libthermalclient.so|3afc3a5e5f27d550d1862dd5c4eca7996f411938
--vendor/lib64/libthermalclient.so|675fbd8d6c78b77468556de63f8b06f7eaedaf0c
-vendor/lib64/libthermalioctl.so|0826999e64d4e75032ceb3533957a7407667ecdc
+# Thermal - from jeice 8.1.0 OPM1.171019.026
+vendor/bin/thermal-engine|25c8880f9de66c3fa757149b1e146795b77549b2
+-vendor/lib/libthermalclient.so|5e77723f69df323a85360c39722b8da00297ba9a
+vendor/lib/libthermalioctl.so|07afb0f3b30ee5ee29a1316b8d2eb26a27a6b9e0
 
 # Time services - from tissot 8.1.0 OPM1.171019.026
 -vendor/app/TimeService/TimeService.apk|c26ca23d0e67278d9e45b4dd6012cc36d7f67592
