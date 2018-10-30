@@ -158,6 +158,7 @@ on property:init.svc.vendor.per_mgr=running
 
 on property:sys.powerctl=*
     stop vendor.per_proxy
+    stop vendor.ims_rtp_daemon
 
 service hvdcp_opti /vendor/bin/hvdcp_opti
     class main
