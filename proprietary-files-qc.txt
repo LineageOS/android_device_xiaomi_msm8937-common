@@ -185,6 +185,11 @@ vendor/lib64/libsecureui.so|876dddb735c52d2b915fdf870f8106684f28ae6c
 vendor/lib64/libsecureui_svcsock.so|6e8959c43ea33a54c930a054041a372c6923e1ae
 vendor/lib64/libssd.so|baabf76b79866df9dabfd7761d7338e54757bc3f
 
+# DRM Widevine - from marlin - PPR2.181005.003
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|2c2455a218eb8d5368f1ccd39bea51be8364a0f3
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
+vendor/lib/libwvhidl.so|37333d17980282275805807bc648bf8516fd4143
+
 # Gatekeeper - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|9167fce2796332834d1a209566f6449c954394e3
 vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|c7b1fb00d0189513327e93c541c6e9b003bc76e9
@@ -541,11 +546,6 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|df9b713b1f04917646f40
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so|cd7713df15e6ae976cea11460bcd3af430fd6f13
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so|359b87c1daad8c430005c86c451a7b095a934d91
-
-# Widevine - from tissot 8.1.0 OPM1.171019.026
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine|f54f2a4fb4aaaa0fbabac1096fdf0957b7f93f1b
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|51a3168a0dbc064d78ee11ca83614c0cd2e6daa5
-vendor/lib/libwvhidl.so|b60b46fb99c3a75fec785239d0a9e1780bab3463
 
 # Wi-Fi - from tissot 8.1.0 OPM1.171019.026
 vendor/bin/wcnss_service|183c15394d1d6df2e5f6d712df80b2b2aa9f5ea6
