@@ -32,15 +32,6 @@ lib/com.qualcomm.qti.ant@1.0.so|fcd6a7130c480bfe4e4d9cc00702ed8444cddc82
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|10444ef8178cbe0b2afebf08cf5102355ff78bd2
 vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so|a2264d386f65012a23b91478e4d4c05ba846b6dc
 
-# Alarm - from tissot 8.1.0 OPM1.171019.026
-etc/permissions/vendor-qti-hardware-alarm.xml:vendor/etc/permissions/vendor-qti-hardware-alarm.xml|99ea2b3abffc975fb9875b5b3befabfb6eead7b9
--vendor/app/PowerOffAlarm/PowerOffAlarm.apk|ef2832a5261078eb6f9444b7939b1aa819849736
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|d99c58d75145d9cc2176605f76eaf3012f6b8109
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
-vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar|d9b2fefcbe0fe30cfd54a5f7622e5964d55e8415
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|cbee74bc88e007490e517ba310defec360ea0cb0
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|92f85112ffd180a00591f2e310517b169e00f4bb
-
 # Audio - from tissot 8.1.0 OPM1.171019.026
 vendor/lib/libacdb-fts.so|17a5d7a23eca76b046142504a7ebe6d0d89d56ed
 vendor/lib/libacdbloader.so|8e7261649c502088e74ae68655a9bab45b6c8625
@@ -386,6 +377,14 @@ vendor/lib64/libdisp-aba.so|aae81bec32e1c947201538e1b5b78f7bda060a2e
 vendor/lib64/libsdm-disp-vndapis.so|0770a8dc3ab6b3f385be14cd25e8b89a0e780a2e
 vendor/lib64/vendor.display.color@1.0_vendor.so|25c717f3004a5932dcbb2f55d5165c010f7eac1a
 vendor/lib64/vendor.display.postproc@1.0_vendor.so|503ef07fcfbbfcd8db096de79dfd822c8ada5e9b
+
+# Power-off alarm - from jasmine - PKQ1.180904.001
+framework/vendor.qti.hardware.alarm-V1.0-java.jar|050a7b600dcda221c5d275f581bfd89770a66b22
+-vendor/app/PowerOffAlarm/PowerOffAlarm.apk|c6ac3bd60b196cbc69fd51a532fcbcf2f4521a67
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|1300f2aacbcd159a2587abc1f38031d9c1f1beed
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|7d163c35a9deee2801070ed50c6625709c3e0b65
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|1594b679eb1c791e0f4e0dbb9115b599a8553401
 
 # QMI - from tissot - OPR1.170623.026
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
