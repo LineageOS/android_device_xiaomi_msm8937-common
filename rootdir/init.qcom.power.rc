@@ -1,3 +1,7 @@
+on init 
+    # Drop write bit from cpu_max_freq so that libqti-perfd can't set it
+    chmod 0444 /sys/module/msm_performance/parameters/cpu_max_freq
+
 on boot
 
     # Set RPS mask
