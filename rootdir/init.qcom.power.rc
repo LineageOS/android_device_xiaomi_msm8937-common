@@ -1,6 +1,9 @@
-on init 
+on init
     # Drop write bit from cpu_max_freq so that libqti-perfd can't set it
     chmod 0444 /sys/module/msm_performance/parameters/cpu_max_freq
+
+    # Drop write bit from cpu_min_freq so that libqti-perfd can't set it
+    chmod 0444 /sys/module/msm_performance/parameters/cpu_min_freq
 
 on boot
 
