@@ -15,6 +15,8 @@ allow gx_fpd hal_fingerprint_msm8937:binder call;
 allow hal_fingerprint_msm8937 fingerprint_service:service_manager find;
 allow hal_fingerprint_msm8937 keystore_service:service_manager find;
 
+allow hal_fingerprint_msm8937 keystore:keystore_key { add_auth };
+
 allow hal_fingerprint_msm8937 fpc_sysfs:file rw_file_perms;
 allow hal_fingerprint_msm8937 fpc_sysfs:dir rw_dir_perms;
 allow hal_fingerprint_msm8937 tee_device:chr_file rw_file_perms;
