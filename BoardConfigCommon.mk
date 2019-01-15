@@ -134,9 +134,6 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(VENDOR_PATH)/lineagehw|**/*.java
-
 # Malloc
 MALLOC_SVELTE := true
 
