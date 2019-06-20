@@ -374,8 +374,8 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /vendor/etc/msm_irqb
 
 service gx_fpd /vendor/bin/gx_fpd
     class core
-    user root
-    group system system
+    user system
+    group system
     disabled
 
 on property:persist.sys.fp.vendor=switchf
