@@ -1,0 +1,1 @@
+allow healthd power_sysfs:file r_file_perms;
